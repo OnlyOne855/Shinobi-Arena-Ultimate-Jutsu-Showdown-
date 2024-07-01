@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 1em 0;
+    margin: 0;
+}
+
+#ninja-list, #purchase-form {
+    background-color: #fff;
+    padding: 1em;
+    margin: 1em;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+#ninja-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#ninja-list li {
+    padding: 0.5em 0;
+    border-bottom: 1px solid #ccc;
+}

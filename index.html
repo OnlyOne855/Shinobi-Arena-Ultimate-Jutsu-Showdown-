@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shinobi Arena: Ultimate Jutsu Showdown!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Shinobi Arena: Ultimate Jutsu Showdown!</h1>
+    <div id="ninja-list">
+        <h2>Available Ninjas</h2>
+        <ul>
+            <!-- Ninja list will be populated here by JavaScript -->
+        </ul>
+    </div>
+    <div id="purchase-form">
+        <h2>Purchase Ninja</h2>
+        <form id="ninjaForm">
+            <label for="ninja">Choose a Ninja:</label>
+            <select id="ninja" name="ninja">
+                <!-- Options will be populated by JavaScript -->
+            </select>
+            <button type="button" onclick="purchaseNinja()">Buy</button>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
